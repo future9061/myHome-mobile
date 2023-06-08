@@ -5,7 +5,7 @@
   <h4>main page의 script 설명😆</h4>
   
   <p>1. DOM요소 변수 선언하기</p>
-    <>
+    
 ```ruby
 const slideWrap = document.querySelector(".slide_wrap"); 
 const slideUl = document.querySelector(".slide_wrap ul"); 

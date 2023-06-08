@@ -25,12 +25,11 @@ const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
  <br />
  <p>1-2. resize event</p>
  ```javascript
- require 'javascript'
  window.addEventListener("resize", function () {
   const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
   slideUl.style.width = `${slideUlWidth}px`;
-});
- ```
+});```
+
  
   <br />
  <p>1-3.mousedown, mousemove, mouseuup event</p>

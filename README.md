@@ -15,7 +15,7 @@
   확장성을 고려해 ul의 width는 slideli.length를 곱한 값을 줌으로써 li가 추가되면 ul의 width값도 커짐 
   </small>
     
-```ruby
+```javascript
 const slideWrap = document.querySelector(".slide_wrap"); 
 const slideUl = document.querySelector(".slide_wrap ul"); 
 const slideLi = document.querySelectorAll(".slide_wrap ul li");
@@ -24,20 +24,19 @@ const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
 
  <br />
  <p>1-2. resize event</p>
- ```ruby
+ ```javascript
  require 'javascript'
  window.addEventListener("resize", function () {
   const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
   slideUl.style.width = `${slideUlWidth}px`;
 });
-puts markdown.to_javascript
  ```
  
   <br />
  <p>1-3.mousedown, mousemove, mouseuup event</p>
  
 
- ```ruby
+ ```javascript
  let mouseDownValue = 0;
 let mouseMoveValue = 0;
 const slideLiWid = slideLi[0].offsetWidth;

@@ -32,8 +32,9 @@ const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
  ```
  <br />
  <p>1-3.mousedown, mousemove, mouseuup event</p>
+ 
+ 미완
  ```ruby
- //미완
  let mouseDownValue = 0;
 let mouseMoveValue = 0;
 const slideLiWid = slideLi[0].offsetWidth;

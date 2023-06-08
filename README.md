@@ -25,16 +25,18 @@ const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
  <br />
  <p>1-2. resize event</p>
  ```ruby
+ require 'javascript'
  window.addEventListener("resize", function () {
   const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
   slideUl.style.width = `${slideUlWidth}px`;
 });
+puts markdown.to_javascript
  ```
  
   <br />
  <p>1-3.mousedown, mousemove, mouseuup event</p>
  
- <p>미완</p>
+
  ```ruby
  let mouseDownValue = 0;
 let mouseMoveValue = 0;

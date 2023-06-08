@@ -1,11 +1,15 @@
 # mobile
 
+사용 skills
+<img src="https://img.shields.io/badge/html-#E34F26?style=flat-square&logo=로고명&logoColor=로고색"/>
+
+
 <h2>pwa 모바일 만들기!</h2>
   
   <p>main page의 script 설명😆</p>
   <br />
   
-  <strong>vanilla javascript로 swiper 만들기!</strong>
+  <strong>1.swiper</strong>
   
   
   <p>1-1. DOM요소 변수 선언하기</p>

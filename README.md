@@ -1,6 +1,6 @@
 # mobile
 
-사용 skills
+사용 skills👍
 <img src="https://img.shields.io/badge/html-#E34F26?style=flat-square&logo=로고명&logoColor=로고색"/>
 
 

@@ -6,7 +6,7 @@
   
   <p>1. DOM요소 변수 선언하기</p>
     <>
-```rudy
+```ruby
 const slideWrap = document.querySelector(".slide_wrap"); 
 const slideUl = document.querySelector(".slide_wrap ul"); 
 const slideLi = document.querySelectorAll(".slide_wrap ul li");

@@ -30,7 +30,7 @@ const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
   slideUl.style.width = `${slideUlWidth}px`;
 });
  ```
- <br/>
+  <br />
  <p>1-3.mousedown, mousemove, mouseuup event</p>
  
  미완

@@ -11,75 +11,109 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="nomalize.css" />
+    <link rel="stylesheet" href="main.css" />
     <script defer src="main.js"></script>
-    <title>Document</title>
+
+    <title>MyHome</title>
   </head>
   <body>
-    <!-- 첫화면 -->
     <div class="wrap">
-      <header>
-        <nav class="first_nav">
-          <div class="logo">my Home</div>
-          <div class="login"><i class="fa-regular fa-user"></i></div>
+      <div class="content1">
+        <div class="content1_bg">
+          <img src="img/first-img.jpg" alt="뒷배경" />
+          <div class="gradient_box"></div>
+          <div class="content1_text_wrap">my Home</div>
+        </div>
+      </div>
+      <!--/content2-->
+      <div class="content2">
+        <nav class="content2_nav">
+          <div class="content2_btn_wrap cr">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <h3 class="cr">my Home</h3>
+          <i class="fa-regular fa-heart cr"></i>
         </nav>
-        <nav class="second-nav">
-          <ul>
-            <li>
-              <a href="#"><i class="fa-solid fa-house"></i></a>
-            </li>
-            <div class="under_bar"></div>
-            <li>
-              <a href="#"><i class="fa-solid fa-heart"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-location-dot"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-gear"></i></a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="content1">
+
+        <div class="container">
           <!--스와이퍼 슬라이드-->
-          <h2>인기 매물⭐</h2>
-          <div class="slide_wrap">
+          <h2 class="slide_h2 align">😍지금 핫한 인기 매물</h2>
+          <div class="slide_wrap align cr">
             <ul>
-              <li style="background-color: aqua;">1</li>
-              <li style="background-color: red;">2</li>
-              <li style="background-color: yellow;">3</li>
-              <li style="background-color: green;">4</li>
-              <li style="background-color: orange;">5</li>
+              <li style="background-color: aqua">1</li>
+              <li style="background-color: red">2</li>
+              <li style="background-color: yellow">3</li>
+              <li style="background-color: green">4</li>
+              <li style="background-color: orange">5</li>
             </ul>
           </div>
-          <ul class="dott_wrap">
+          <ul class="dott_wrap cr">
             <li class="color_change"></li>
             <li></li>
-            <li></li>       
-            <li></li>     
+            <li></li>
+            <li></li>
             <li></li>
           </ul>
-          <div class="content1_title">
-            <i class="fa-solid fa-filter"></i>
-            <p>중복선택 가능</p>
-            </div>
-            <div class="keyword_wrap">
-              <button>반려동물 가능</button>
-              <button>원룸</button>
-              <button>투룸</button>
-              <button>고층</button>
-              <button>저층</button>
-              <button>역세권</button><button>신축</button>
+        </div>
+        <div class="content2_search_wrap align">
+          <form action="" class="align">
+            <input type="text" placeholder="search" />
+            <i class="fa-solid fa-magnifying-glass color"></i>
+          </form>
+        </div>
+        <div class="contant2_item_wrap align">
+          <div class="contant2_item">
+            <img src="http://via.placeholder.com/640x600" alt="item-img" />
+            <i class="fa-regular fa-heart color"></i>
+            <div class="contant2_item_text">
+              <h3>월세 <span>3000/72</span></h3>
+              <p>원룸</p>
+              <small class="contant2_item_infor">고층, 15평, 관리비 7만</small>
             </div>
           </div>
-        </div>
-        <div class="content2"></div>
-        <div class="content3"></div>
-        <div class="content4"></div>
-      </main>
+
+          <div class="contant2_item">
+            <img src="http://via.placeholder.com/640x600" alt="item-img" />
+            <i class="fa-regular fa-heart color"></i>
+            <div class="contant2_item_text">
+              <h3>월세 <span>3000/72</span></h3>
+              <p>원룸</p>
+              <small class="contant2_item_infor">고층, 15평, 관리비 7만</small>
+            </div>
+          </div>
+
+          <div class="contant2_item">
+            <img src="http://via.placeholder.com/640x600" alt="item-img" />
+            <i class="fa-regular fa-heart color"></i>
+            <div class="contant2_item_text">
+              <h3>월세 <span>3000/72</span></h3>
+              <p>원룸</p>
+              <small class="contant2_item_infor">고층, 15평, 관리비 7만</small>
+            </div>
+          </div>
+
+          <div class="contant2_item">
+            <img src="http://via.placeholder.com/640x600" alt="item-img" />
+            <i class="fa-regular fa-heart color"></i>
+            <div class="contant2_item_text">
+              <h3>월세 <span>3000/72</span></h3>
+              <p>원룸</p>
+              <small class="contant2_item_infor">고층, 15평, 관리비 7만</small>
+            </div>
+          </div>
+
+          <div class="contant2_bottom_box">
+            <div class="contant2_bottom_box_inner">
+              원하는 조건으로 매물 조회 <i class="fa-solid fa-filter"></i>
+            </div>
+          </div>
+
+      <!--contant2-->
     </div>
+    <!--/wrap-->
   </body>
 </html>

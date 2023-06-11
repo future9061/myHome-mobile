@@ -6,11 +6,6 @@ const slideLi = document.querySelectorAll(".slide_wrap ul li");
 const slideUlWidth = slideWrap.offsetWidth * slideLi.length;
 let totalValue = 0;
 
-let slideUlMargin1 = parseInt(window.getComputedStyle(slideUl).marginLeft);
-let slideUlMargin2 = slideLi[0].offsetWidth;
-//slideUlMargin2에 해당 li의 length 곱해서 marginLeft 값 지정
-console.log(slideUlMargin1, slideUlMargin2 * 1);
-
 slideUl.style.width = `${slideUlWidth}px`;
 
 window.addEventListener("resize", function () {
@@ -32,10 +27,14 @@ slideLi.forEach((elem, index) => {
     userClick = true;
   });
 
+  let slideUlMargin1 = parseInt(window.getComputedStyle(slideUl).marginLeft);
+  let slideUlMargin2 = slideLi[0].offsetWidth;
+  //slideUlMargin2에 해당 li의 length 곱해서 marginLeft 값 지
+
   elem.addEventListener("mousemove", function (e) {
     let mouseMoveValue = e.clientX;
+    3;
     totalValue = mouseMoveValue - mouseDownValue; //??px 이상 움직이면 조건
-    let currentImg = 0;
 
     setTimeout(function () {
       if (userClick === true) {
@@ -45,15 +44,31 @@ slideLi.forEach((elem, index) => {
       }
     }, 500);
   });
+  1;
+  let currentImg = 0;
 
   //3.mouseup
   slideLi[index].addEventListener("mouseup", function (e) {
     userClick = false;
 
     if (totalValue < -100) {
-      slideUl.style.marginLeft = `-${slideLi[index].offsetWidth}px`;
+      let marginLeft = 0;
+      if (currentImg === 1) {
+        marginLeft -= slideUlMargin2;
+        console.log(marginLeft);
+        slideUl.style.marginLeft = `${marginLeft}px`;
+        currentImg += 1;
+      }
+
+      if (currentImg === 2) {
+        // marginLeft -= slideUlMargin2;
+        // slideUl.style.marginLeft = `${marginLeft}px`;
+        // currentImg += 1;
+      } else {
+        console.log("?");
+      }
     } else {
-      slideUl.style.marginLeft = `0`;
+      slideUl.style.marginLeft = `0px`;
     }
   });
 });

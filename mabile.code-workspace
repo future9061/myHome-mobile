@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "D:/react/adidas"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "mabile"
+  }
+}

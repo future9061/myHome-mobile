@@ -1,0 +1,192 @@
+[
+  {
+    "id": 0,
+    "img": "https://plus.unsplash.com/premium_photo-1678170312428-8f42c0e9a403?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    "title": "월세 1000/80",
+    "form": "다세대주택",
+    "option": "월세",
+    "room": "원룸",
+    "contant": "고층, 15평, 관리비 없음!",
+    "price": "10000000"
+  },
+  {
+    "id": 1,
+    "img": "https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "title": "월세 9000/40",
+    "form": "오피스텔",
+    "option": "월세",
+    "room": "투룸",
+    "contant": "대출가능! 낙성대도보4분",
+    "price": "90000000"
+  },
+  {
+    "id": 2,
+    "img": "https://plus.unsplash.com/premium_photo-1678170398160-e860e6e6fd4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+    "title": "월세 1000/40",
+    "form": "오피스텔",
+    "option": "월세",
+    "room": "원룸",
+    "contant": "3층, 관리비 5만, 갓성비 원룸",
+    "price": "10000000"
+  },
+  {
+    "id": 3,
+    "img": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "title": "월세 2억/60",
+    "form": "오피스텔",
+    "option": "월세",
+    "room": "원룸",
+    "contant": "3층, 관리비 5만, 갓성비 원룸",
+    "price": "200000000"
+  },
+  {
+    "id": 4,
+    "img": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    "title": "전세 2000/40",
+    "form": "단독주택",
+    "option": "전세",
+    "room": "투룸",
+    "contant": "4층, 실매물",
+    "price": "20000000"
+  },
+  {
+    "id": 5,
+    "img": "https://plus.unsplash.com/premium_photo-1678170398145-6555542cd432?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    "title": "전세 2억 8000",
+    "form": "단독주택",
+    "option": "전세",
+    "room": "쓰리룸",
+    "contant": "4층, 애완동물 가능",
+    "price": "280000000"
+  },
+  {
+    "id": 6,
+    "img": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80",
+    "title": "월세 5000/95",
+    "form": "빌라",
+    "option": "월세",
+    "room": "투룸",
+    "contant": "다락있는 집",
+    "price": "50000000"
+  },
+  {
+    "id": 7,
+    "img": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "title": "월세 100/20",
+    "form": "다세대주택",
+    "option": "월세",
+    "room": "원룸",
+    "contant": "가성비 대박이죠? 사회 초년생을 위한 집",
+    "price": "1000000"
+  },
+  {
+    "id": 8,
+    "img": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+    "title": "월세 100/40",
+    "form": "다세대주택",
+    "option": "월세",
+    "room": "원룸",
+    "contant": "깔끔한 풀 옵션 단칸방",
+    "price": "1000000"
+  },
+  {
+    "id": 9,
+    "img": "https://images.unsplash.com/photo-1556702571-3e11dd2b1a92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "title": "전세 1억7000",
+    "form": "빌라",
+    "option": "전세",
+    "room": "투룸",
+    "contant": "신림선 서울대벤쳐타운역세권",
+    "price": "100000000"
+  },
+  {
+    "id": 10,
+    "img": "https://plus.unsplash.com/premium_photo-1678170262869-afdb3eeb198d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80",
+    "title": "월세 5000/120",
+    "form": "오피스텔",
+    "option": "월세",
+    "room": "투룸",
+    "contant": "고층에 전망 좋은 집",
+    "price": "50000000"
+  },
+  {
+    "id": 11,
+    "img": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80",
+    "title": "월세 1000/40",
+    "form": "오피스텔",
+    "option": "월세",
+    "room": "원룸",
+    "contant": "남서방향 따뜻한 방",
+    "price": "10000000"
+  },
+  {
+    "id": 12,
+    "img": "https://images.unsplash.com/photo-1618221639244-c1a8502c0eb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+    "title": "월세 500/40",
+    "form": "다세대주택",
+    "option": "월세",
+    "room": "원룸",
+    "contant": "화이트톤 신축 첫 입주",
+    "price": "5000000"
+  },
+  {
+    "id": 13,
+    "img": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+    "title": "월세 500/60",
+    "form": "빌라",
+    "option": "월세",
+    "room": "투룸",
+    "contant": "채광좋은 옥상 단독사용 투룸",
+    "price": "5000000"
+  },
+  {
+    "id": 14,
+    "img": "",
+    "title": "월세 1000/60",
+    "form": "아파트",
+    "option": "월세",
+    "room": "원룸",
+    "contant": "서울대입구 완전 가까움!! 방도 이쁘지?",
+    "price": "10000000"
+  },
+  {
+    "id": 15,
+    "img": "https://images.unsplash.com/photo-1606744824163-985d376605aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
+    "title": "전세 1억 7650",
+    "form": "아파트",
+    "option": "전세",
+    "room": "투룸",
+    "contant": "오피스텔 복층 전세 매물",
+    "price": "100000000"
+  },
+  {
+    "id": 16,
+    "img": "https://images.unsplash.com/photo-1617103996702-96ff29b1c467?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=300&q=60",
+    "title": "전세 3억 850",
+    "form": "아파트",
+    "option": "매매",
+    "room": "쓰리룸",
+    "contant": "봉천역 대로변",
+    "price": "180000000"
+  },
+  {
+    "id": 17,
+    "img": "https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
+    "title": "전세 2억 8000",
+    "form": "아파트",
+    "option": "매매",
+    "room": "투룸",
+    "contant": "보증보험 OK",
+    "price": "280000000"
+  },
+  {
+    "id": 19,
+    "img": "https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=300&q=60",
+    "title": "전세 5억 8000",
+    "form": "아파트",
+    "option": "매매",
+    "room": "쓰리룸",
+    "contant": "특급 리모델링, 역세권 아파트",
+    "price": "580000000"
+  }
+]

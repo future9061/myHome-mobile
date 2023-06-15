@@ -13,10 +13,8 @@
     />
     <link rel="stylesheet" href="../css/nomalize.css" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/content3.css" />
     <link rel="stylesheet" href="../css/contant4.css" />
-    <script defer src="main.js"></script>
-
+    <script defer src="../javascript/sub.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -25,33 +23,43 @@
         <div>
           <nav class="contant4_nav_wrap">
             <ul class="contant4_nav_ul">
-              <li><a href="#">건물형태</a></li>
-              <li><a href="#">매물종류</a></li>
-              <li><a href="#">보증금</a></li>
-              <li><a href="#">월세금</a></li>
-              <li><a href="#">방개수</a></li>
+              <li>건물형태</li>
+              <li>매물종류</li>
+              <li>보증금</li>
+              <li>월세금</li>
+              <li>방개수</li>
             </ul>
           </nav>
           <div class="contant4_nav_box_wrap">
-            <div class="contant4_nav_box0">
+            <div class="contant4_nav_box0 show">
               <ul class="container">
-                <li class="cr"><a href="#">다세대 주택</a></li>
-                <li class="cr"><a href="#">오피스텔</a></li>
-                <li class="cr"><a href="#">주택</a></li>
-                <li class="cr"><a href="#">아파트</a></li>
-                <li class="cr"><a href="#">빌라</a></li>
+                <li class="cr">다세대 주택</li>
+                <li class="cr">오피스텔</li>
+                <li class="cr">주택</li>
+                <li class="cr">아파트</li>
+                <li class="cr">빌라</li>
               </ul>
             </div>
-            <div class="contant4_nav_box1 show">
-              <ul>
-                <li class="cr"><a href="#">월세</a></li>
-                <li class="cr"><a href="#">전세</a></li>
-                <li class="cr"><a href="#">매매</a></li>
+            <div class="contant4_nav_box1">
+              <ul class="cr">
+                <li>월세</li>
+                <li>전세</li>
+                <li>매매</li>
               </ul>
             </div>
             <div class="contant4_nav_box2">
               <div class="contant4_nav_box2_inner container">
-                <h4>0원 ~ 전체</h4>
+                <h4><span>보증금</span>0원 ~ 전체</h4>
+                <input type="range" value="0" />
+                <div class="contant4_nav_box2_btn_wrap">
+                  <button>적용</button>
+                  <button>취소</button>
+                </div>
+              </div>
+            </div>
+            <div class="contant4_nav_box3">
+              <div class="contant4_nav_box2_inner container">
+                <h4><span>월세</span>0원 ~ 전체</h4>
                 <input type="range" value="0" />
                 <div class="contant4_nav_box2_btn_wrap">
                   <button>적용</button>
@@ -61,16 +69,16 @@
             </div>
             <div class="contant4_nav_box3">
               <ul>
-                <li class="cr"><a href="#">원룸</a></li>
-                <li class="cr"><a href="#">투룸</a></li>
-                <li class="cr"><a href="#">쓰리룸</a></li>
+                <li class="cr">원룸</li>
+                <li class="cr">투룸</li>
+                <li class="cr">쓰리룸</li>
               </ul>
             </div>
           </div>
         </div>
         <!--여기까지 보라색-->
 
-        <div class="contant4_condition">공백</div>
+        <div class="contant4_condition"></div>
         <div class="contant4_product_wrap"></div>
       </div>
     </div>

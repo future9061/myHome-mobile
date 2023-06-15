@@ -37,11 +37,6 @@
   display: none;
 }
 
-/*javasctipt*/
-.show {
-  display: block;
-}
-
 .contant4_nav_box0 ul {
   background-color: #f4f3f3;
   margin: 30px auto;
@@ -141,4 +136,14 @@
   background-color: #f4f3f3;
   padding: 30px;
   border-radius: 30px;
+}
+
+/*javasctipt*/
+.show {
+  display: block;
+}
+
+.contant4_nav_box2_inner span {
+  font-size: 1.1em;
+  margin-right: 10px;
 }

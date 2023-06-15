@@ -141,7 +141,7 @@
   },
   {
     "id": 14,
-    "img": "",
+    "img": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
     "title": "월세 1000/60",
     "form": "아파트",
     "option": "월세",
@@ -188,5 +188,15 @@
     "room": "쓰리룸",
     "contant": "특급 리모델링, 역세권 아파트",
     "price": "580000000"
+  },
+  {
+    "id": 20,
+    "img": "https://images.unsplash.com/photo-1557592722-a0a649c8c5c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+    "title": "전세 2억 1000",
+    "form": "아파트",
+    "option": "매매",
+    "room": "투룸",
+    "contant": "도보 1분 거리에 역이 두개나! 더블 역세권",
+    "price": "210000000"
   }
 ]

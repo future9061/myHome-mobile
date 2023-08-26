@@ -32,16 +32,13 @@ a {
   margin: 10px auto;
 }
 
-.cr {
-  cursor: pointer;
-}
-
 .color {
   color: #ce93be;
 }
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 /*전체 wrap*/
@@ -49,7 +46,6 @@ li {
 .wrap {
   max-width: 640px;
   min-width: 360px;
-  border: 1px solid black;
   margin: auto;
   position: relative;
   overflow-x: hidden;
@@ -160,7 +156,6 @@ li {
 .slide_wrap ul {
   display: flex;
   height: 100%;
-  transition: 0.3s;
 }
 
 .slide_wrap ul li {
@@ -225,10 +220,6 @@ li {
 
 .img_wrap {
   overflow: hidden;
-}
-
-.item img {
-  transition: 0.3s;
 }
 
 .item:hover img {

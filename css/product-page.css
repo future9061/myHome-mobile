@@ -1,149 +1,169 @@
-.contant4_nav_wrap {
-  border: 1px solid transparent;
+.check-inner > div:first-child {
   background-color: #ce93be;
-  top: 0;
+  padding: 1px;
 }
 
-.contant4_nav_ul {
-  margin-top: 30px;
+.menu-wrap {
+}
+
+.menu-inner {
+  text-align: center;
   background-color: white;
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
+}
+
+.menu-inner li {
+  border-right: 1px solid #d4d4d4;
+  padding: 20px 0;
+  flex-shrink: 0;
+  flex-grow: 1;
+  transition: 0.2s;
+}
+
+.menu-inner li:last-child {
+  border: none;
+}
+
+.menu-inner li:hover {
+  background-color: #efefef;
+}
+
+.condition {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.contant4_nav_ul li {
-  border-right: 1px solid #a7a5a5;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  cursor: pointer;
-}
-
-.contant4_nav_ul li:hover {
-  background-color: beige;
-}
-
-/*건물형태*/
-.contant4_nav_box0,
-.contant4_nav_box1,
-.contant4_nav_box2,
-.contant4_nav_box3 {
-  background-color: #ce93be;
-  padding: 1px;
-  max-width: 640px;
-  min-width: 360px;
-  width: 100%;
+/*다세대 주택 탭*/
+.building-type,
+.contract,
+.deposit,
+.monthly,
+.room {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f4f3f3;
+  position: absolute;
   display: none;
+  width: 80%;
 }
 
-.contant4_nav_box0 ul {
-  background-color: #f4f3f3;
-  margin: 30px auto;
-  width: 60%;
-  border-radius: 40px;
+.building-type ul,
+.contract ul,
+.room ul {
   display: flex;
   justify-content: center;
+  gap: 10px;
   flex-wrap: wrap;
-  padding: 20px 20px;
-  gap: 30px;
 }
 
-.contant4_nav_box1 ul {
+.building-type ul li,
+.contract ul li,
+.room ul li,
+.user-select li {
   background-color: white;
-}
-
-.contant4_nav_box0 ul li {
-  background-color: white;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-}
-
-.contant4_nav_box0 ul li:hover {
-  background-color: beige;
-}
-
-/*매물종류*/
-
-.contant4_nav_box1 ul,
-.contant4_nav_box3 ul {
-  background-color: #f4f3f3;
-  margin: 60px auto;
-  width: 60%;
-  border-radius: 40px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  text-align: center;
-}
-
-.contant4_nav_box1 ul li,
-.contant4_nav_box3 ul li {
-  border-right: 1px solid #a7a5a5;
-  width: 100%;
-  height: 100%;
-  padding: 20px 20px;
-  font-size: 1.2em;
-}
-
-.contant4_nav_box1 ul li:last-child,
-.contant4_nav_box3 ul li:last-child {
-  border: none;
-}
-
-/*보증금*/
-
-.contant4_nav_box2_inner {
-  text-align: center;
-  background-color: #f4f3f3;
-  width: 60%;
-  margin: 30px auto;
-  border-radius: 30px;
-  padding: 1px 15px 20px 10px;
-}
-
-.contant4_nav_box2_inner h4 {
-  text-align: end;
-  padding: 0px;
-}
-
-.contant4_nav_box2_inner input[type="range"] {
-  margin-bottom: 30px;
-  width: 70%;
-}
-
-.contant4_nav_box2_btn_wrap button:first-child {
-  background-color: white;
-  color: black;
-  border: none;
-  padding: 8px 15px;
-  margin-right: 10px;
+  padding: 10px 20px;
   border-radius: 20px;
 }
 
-.contant4_nav_box2_btn_wrap button:last-child {
-  background-color: #7b7b7b;
+.building-type ul li:hover,
+.contract ul li:hover,
+.room ul li:hover {
+  background-color: #ce93be;
   color: white;
-  border: none;
+}
+
+/*보증금 및 월세금*/
+
+.btn-wrap button {
+  margin-top: 20px;
   padding: 5px 10px;
   border-radius: 20px;
+  border: none;
+  outline: none;
+  transition: 0.2s;
 }
 
-.contant4_condition {
-  width: 60%;
-  margin: 30px auto;
-  background-color: #f4f3f3;
-  padding: 30px;
-  border-radius: 30px;
+.btn-wrap button:hover {
+  filter: brightness(0.9);
 }
 
-/*javasctipt*/
+.btn-wrap button:first-child {
+  background-color: white;
+}
+
+.btn-wrap button:last-child {
+  background-color: #7b7b7b;
+  color: white;
+  margin-left: 30px;
+}
+
+.deposit-inner,
+.monthly-inner {
+  text-align: center;
+}
+
+.deposit-inner h4,
+.monthly-inner h4 {
+  text-align: start;
+}
+
+input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+/*포인터 스타일*/
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #ffffff;
+  border: 0.5px solid #969696;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transform: translateY(-5px);
+}
+
+/*바 스타일*/
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  background: #481b58;
+  border-radius: 1.3px;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+  background: #481b58;
+}
+
 .show {
   display: block;
 }
 
-.contant4_nav_box2_inner span {
-  font-size: 1.1em;
-  margin-right: 10px;
+/* 사용자가 선택한 조건*/
+
+.user-select {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: #f4f3f3;
+  padding: 30px;
+  display: flex;
+  word-break: keep-all;
+  flex-wrap: wrap;
+  gap: 15px;
 }

@@ -127,7 +127,6 @@ let btnToggle = true;
 fetch("./data/product.json")
   .then((res) => res.json())
   .then((data) => {
-
     let copyData = [...data];
 
     function forLoop(a, b) {
@@ -189,3 +188,5 @@ const sideClose = document.querySelector(".contant3_nav_left");
 sideClose.addEventListener("click", function () {
   sideMenu.classList.remove("right");
 });
+
+

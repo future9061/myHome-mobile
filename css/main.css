@@ -36,16 +36,13 @@ a {
   margin: 10px auto;
 }
 
-.cr {
-  cursor: pointer;
-}
-
 .color {
   color: #ce93be;
 }
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 /*전체 wrap*/
@@ -53,7 +50,6 @@ li {
 .wrap {
   max-width: 640px;
   min-width: 360px;
-  border: 1px solid black;
   margin: auto;
   position: relative;
   overflow-x: hidden;

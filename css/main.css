@@ -45,6 +45,12 @@ li {
   cursor: pointer;
 }
 
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 /*전체 wrap*/
 
 .wrap {
@@ -213,7 +219,7 @@ li {
   align-items: center;
 }
 
-.contant2_item_wrap .item {
+.item {
   width: 35%;
   position: relative;
   box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
@@ -224,6 +230,10 @@ li {
 
 .img_wrap {
   overflow: hidden;
+}
+
+.item img {
+  transition: 0.2s;
 }
 
 .item:hover img {

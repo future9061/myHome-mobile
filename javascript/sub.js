@@ -97,10 +97,11 @@ APPLY.forEach((elem, idx) => {
 
 //상품 정렬product-wrap
 const SHOW_PRODUCT = document.querySelector('.product-wrap');
+let copyProduct;
 
 axios.get('../data/product.json')
   .then(response => {
-    let copyProduct = [...response.data]
+    copyProduct = [...response.data]
     copyProduct.forEach((elem) => {
       let filterItem = `
       <div class="item" >
@@ -121,3 +122,60 @@ axios.get('../data/product.json')
     console.error('Error:', error);
   });
 
+//조회하기 버튼을 클릭하면 div안의 li들의 text와 data를 비교해야해
+
+//유저가 선택한 li의 text를 꺼내 배열에 넣는다. 보증금과 월세는 글자와 숫자를 제외하고 number로 변환해 넣는다.
+// const liTextArray = Array.from(userSelec).map(li => li.textContent);
+
+const CHECK_BTN = document.querySelector('.filter-btn');
+let userResult = [];
+let matchedData;
+
+function filterData(keyName) {
+  copyProduct.filter((elem) => {
+    Object.keys(elem).some(key => {
+      if (key === keyName) {
+        const value = elem[key];
+        return userResult.some(item => {
+          if (item.type === keyName && value <= item.value) {
+            matchedData.push(elem); // 배열에 해당 item 이 있나 확인 후 넣기
+          }
+        });
+      }
+    });
+  });
+}
+
+
+
+CHECK_BTN.addEventListener('click', function () {
+  const userSelec = document.querySelectorAll('.user-select li');
+
+  Array.from(userSelec).map(li => {
+    const text = li.textContent;
+    // '이하'라는 텍스트가 포함된 요소 처리
+    if (text.includes('보증금')) {
+      const D_PRICE = text.replace(/이하|,|원|보증금|/g, '');
+
+      const DEPOSIT_CHOOSE = parseInt(D_PRICE); // 숫자로 변환하여 반환
+      userResult.push({ type: 'deposit', value: DEPOSIT_CHOOSE })
+    } else if (text.includes('월세금')) {
+      const M_PRICE = text.replace(/이하|,|원|월세금|/g, '');
+
+      const MONTHLY_CHOOSE = parseInt(M_PRICE); // 숫자로 변환하여 반환
+      userResult.push({ type: 'monthly', value: MONTHLY_CHOOSE })
+    } else {
+      userResult.push(text)
+    }
+  });
+
+  //userResult의 배열에 number 보증금이냐 월세금이나 구분해야해
+  matchedData = copyProduct.filter(elem =>
+    Object.values(elem).some(value => (typeof value === 'string' && userResult.some(keyword => value.includes(keyword)))
+    )
+  );
+
+  filterData('deposit');
+  filterData('monthly');
+
+})

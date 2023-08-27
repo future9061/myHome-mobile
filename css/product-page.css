@@ -1,3 +1,7 @@
+.check-inner {
+  text-align: center;
+}
+
 .check-inner > div:first-child {
   background-color: #ce93be;
   padding: 1px;
@@ -166,4 +170,19 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
   word-break: keep-all;
   flex-wrap: wrap;
   gap: 15px;
+}
+
+.product-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: start;
+}
+
+.filter-btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #ce93be;
+  color: #ffffff;
 }
